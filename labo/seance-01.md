@@ -1,4 +1,6 @@
-# Séance 1: Connexion ssh, Vim ou Nano, Markdown et Git
+# Séance 1: Connexion ssh, Éditeurs, Markdown et Git
+
+- Objectif : Gagner en aisance avec l'environnement Linux
 
 ## 1 - Établir une connexion SSH
 
@@ -40,7 +42,7 @@ travailler efficacement sous Vim pendant tout le cours.
 
 ## 2b - GNU nano (requis pour ceux qui n'utilisent pas Vim)
 
-Voici quelques commandes pour configurer votre environnement de developpement.
+Voici quelques commandes pour configurer votre environnement de développement.
 Il est aussi possible de le configurer pour faire du Java.  Cet exemple est pour
 le langage C. Mais regarder les fichiers disponibles pour les autres langages.
 
