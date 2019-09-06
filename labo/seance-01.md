@@ -1,4 +1,4 @@
-# Séance 1: Unix, Vim ou Nano, Markdown et Git
+# Séance 1: Connexion ssh, Vim ou Nano, Markdown et Git
 
 ## 1 - Établir une connexion SSH
 
@@ -50,9 +50,35 @@ $ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
 $ pwd
 ```
 
-## 3a - Édition d'un programme C
+## 3a - Commandes Linux/Unix - Préparation et stratégies
 
-- Ici vous pouvez expérimenter Vim ou Nano ainsi que le copier coller dans un terminal;
+Il serait important de penser à une stratégie de répertoire afin de garder mes fichiers
+dans une structure adéquate.  Des répertoires sont nécessaires pour ne pas mettre tout au même
+endroit.  Les commandes : `cd`, `mkdir`, `ls` et `rm` sont utiles pour réaliser le travail.
+
+~~~~
+$ cd
+$ mkdir execices
+~~~~
+
+pour changer de répertoire, essayez ceci :
+
+```$ cd ex``` <kbd>TAB</kbd>
+
+## 3b - Commandes Linux/Unix - Pratiquer plus
+
+Dans la première partie de ce laboratoire, vous allez pratiquer les commandes
+Unix grâce à un jeu sérieux. Rendez vous sur le site
+[OverTheWire.org](http://overthewire.org/wargames/bandit/bandit0.html) et
+passez les 10 premiers niveaux du jeu `bandit`.
+
+*Note:* Des indices de commandes vous sont donnés pour chaque niveau, n'hésitez
+pas à vous en servir! Lisez les pages `man` de ces commandes et essayez de les
+exécuter.
+
+## 4a - Édition d'un programme C
+
+- Vous pouvez expérimenter Vim ou Nano ainsi que le `copier/coller` dans un terminal;
 - Créez un programme C nommé `hello.c` qui affiche le traditionnel "Hello, world!" et sauvegardez-le.
 - Vous pouvez simplement copier et coller les lignes suivantes:
 
@@ -60,12 +86,13 @@ $ pwd
     #include <stdio.h>
 
     int main(int argc, char *argv[]) {
-        printf("Hello, world!\n");
-        return 0;
+      printf("Hello, world!\n");
+      
+      return 0;
     }
     ```
 
-## 3b - Compilation d'un programme C
+## 4b - Compilation d'un programme C
 
 - Compilez le fichier en une seule étape
 
@@ -76,7 +103,7 @@ $ pwd
 et exécutez le fichier résultant en entrant `./a.out` pour vous assurer que
 tout fonctionne.
 
-## 4 - Markdown
+## 4c - Création et édition d'un fichier Markdown
 
 Dans le même répertoire que le fichier `hello.c` que vous avez conçu à
 l'exercice précédent, créez un fichier nommé `README.md` qui décrit brièvement
