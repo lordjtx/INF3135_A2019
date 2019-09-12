@@ -6,9 +6,10 @@
 
 ### Dates importantes:
 - Examen #1 intra : 26 octobre 2019 09h30 durée 3h, local ?
-- Examen #2 final : 14 décembre2019 09h30 durée 3h, local ?
-- TP1 remise : en ... 2019 à 00h01
-- TP2 remise : en ... 2019 à 07h59
+- Examen #2 final : 14 décembre 2019 09h30 durée 3h, local ?
+- TP1 remise :  ... 2019 à 00h01
+- TP2 remise :  ... 2019 à 01h00
+- TP3 remise :  ... 2019 à 07h59
 
 ##### Directives aux examens
  + Avoir votre carte d'étudiant UQAM valide;
