@@ -14,7 +14,7 @@ de Git. Un seul dépôt est amplement suffisant pour tous les laboratoires, en
 divisant les fichiers dans des répertoires.
 
 *Conseil* : Vous devriez versionner vos exercices avec Git, afin de
-vous entraîner à utiliser le logiciel plus naturellement.
+vous entraîner à utiliser le logiciel naturellement.
 
 ## 0 - Préparation avant de commencer
 
