@@ -7,9 +7,9 @@
 ### Dates importantes:
 - Examen #1 25% : 26 octobre 2019 09h30 durée 3h, local ?
 - Examen #2 25% : 14 décembre 2019 09h30 durée 3h, local ?
-- TP1       15% :  ... 2019 à 00h01
-- TP2       15% :  ... 2019 à 01h00
-- TP3       20% :  ... 2019 à 07h59
+- Travail 1 15% :  18 octobre 2019 à 23h59 [énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
+- Travail 2 15% :  ... 2019 à 01h00
+- Travail 3 20% :  ... 2019 à 07h59
 
 ##### Directives aux examens
  + Avoir votre carte d'étudiant UQAM valide;
@@ -23,7 +23,7 @@
  + **Signez la feuille de présence avant votre départ.**
 
 #### Travaux pratiques
-- [ici](https://github.com/guyfrancoeur/INF3135_A2019_TP)
+- [TP1 énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
 
 #### Cours:
 - Chapitre 1 introduction
