@@ -97,19 +97,7 @@ retournent `true`.
 Dans les deux cas, fournissez des tests pour montrer que vos fonctions sont
 correctement implémentées.
 
-## 4 - Fouille dans un tableau
-
-Écrivez une fonction C dont la signature est
-```c
-const double *trouverElement(const double tableau[],
-                       unsigned int taille,
-                       double element);
-```
-qui retourne un pointeur vers la première occurrence de `element` dans
-`tableau` si elle existe, ou qui retourne `NULL` sinon, sachant que les indices
-valides de `tableau` sont entre `0` et `taille - 1`.
-
-## 5 - Extra
+## 4 - Extra
 
 + Q1. Vous devez refaire la fonction printf() qui est disponible dans la librairie standard `<stdio.h>`.
 Votre nouvelle fonction doit idéalement reproduire le plus fidèlement possible ce que la fonction `printf()`
