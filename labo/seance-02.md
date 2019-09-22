@@ -1,6 +1,6 @@
 # Séance 2: Programmer en C, Makefile, Git
 
-**Note** : (_facultatif_) S'il y a des questions dans ce labo, répondez y dans un fichier nommé `./labo/reponse-labo.md`.  Le fichier doit être dans un format `Markdown`. Utilisez le projet `inf3135-e2019` pour déposer le fichier `./labo/reponse-labo.md` soit le même que pour vos exercices.  Utilisez un autre `projet` pour vos travaux pratiques.
+**Note** : (_facultatif_) S'il y a des questions dans ce labo, répondez y dans un fichier nommé `./labo/reponse-labo.md`.  Le fichier doit être dans un format `Markdown`. Utilisez le projet `inf3135-a2019` pour déposer le fichier `./labo/reponse-labo.md` soit le même que pour vos exercices.  Utilisez un autre `projet` pour vos travaux pratiques.
 
 ##### Format du fichier Markdown
  + Séance 2 (Header 1)
@@ -93,7 +93,7 @@ Q3. Quelle est la commande pour supprimer les fichiers ?
     ```
   Versionnez l'état actuel de votre projet avec Git.
 
-##### Q1. Décrire à quoi correspond le premier argument dans vos mots (dans le programme `hello.c` ou tout autre programme?
+##### Q1. Décrire, dans vos mots, à quoi correspond le premier argument (dans le programme `hello.c` ou tout autre programme) ?
 
 ## 4 - Fonctions
 
@@ -279,6 +279,8 @@ $ git checkout -- README.md
     - `git show` pour visualiser le "contenu" d'un *commit*;
     - `git remote` pour lister tous les dépôts distants. Si vous êtes synchronisés avec GitLab, vous devriez voir apparaître seulement`origin`;
     - `git remote -v` donne la liste des dépôts distants avec plus d'informations (notamment l'URL où il se trouve).
+    
+### FIN.    
 ---
 
 ##### Auteur Guy Francoeur
