@@ -78,6 +78,9 @@ unsigned int trouverElement(const double tableau[],
 Votre fonction retourne
  + 0 si l'élément n'est pas présent;
  + l'indice dans le tableau si l'élément est présent;
+ 
+ Q1. Que se passe-t-il si l'élément se trouve à l'index zéro ?
+ Q2. Que peut-on changer pour éviter ce problème ?
 
 ## 3 - Commandes d'une ligne (Linux)
 
@@ -88,9 +91,8 @@ Votre fonction retourne
 + Q1. (man, head) Sauvegardez les 20 premières lignes du "manuel d'instructions"
    de la fonction `printf` dans un fichier nommé `man-printf.txt`.
    
-+ Q2. (curl, grep) Affichez toutes les lignes qui contiennent un commentaire dans
-   le fichier `array.c` disponible dans le répertoire `exemples` (ne recopiez
-   pas le fichier sur votre machine, utilisez le programme curl!).
++ Q2. (curl, grep) Affichez toutes les lignes qui contiennent le mot `tableau` dans
+   le fichier `seance-03.md` disponible dans le dépôt distant. (ce fichier)
    
 + Q3. (git log, grep, sort, uniq) Affichez tous les contributeurs d'un projet
    versionné avec git. Par exemple, j'obtiens le résultat suivant pour le
