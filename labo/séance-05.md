@@ -92,19 +92,23 @@ et qui fera une opération à l'aide de fonctions differentes :
 
 Les matrices (ou tables de caractères) sont les suivantes :
 
-```
+#### `mat1`
+~~~~
 Les Canadiens sont une equipes de hockey
 Les Nordiques sont aussi aux hockey
 Il ne FONT pas de politique
 Super moi non plus
 Hourra
+~~~~
 
+#### `mat2`
+~~~~
 Je dors ZZZ zzz
 Le cours de C est le meilleur
 J'aime apprendre
 Nous avons tous le temp pour un bon repas
 UQAM est mon univers
-```
+~~~~
 
 Vous devez définir un nouveau type pour `typer` vos matrices `mat1`, `mat2` et `matresultat` 
 
@@ -124,6 +128,7 @@ Utiliser la même fonction d'affichage est surement une bonne idée.
 Q1. Quel est votre protptype de fonction ?
 Q2. Quels problèmes avez-vous rencontrer ?
 Q3. Quelles notions académique du langage C étaient nécessaire ?
+Q4. Avez-vous utiliser `stdin` ou des fichiers pour charger `mat1` et `mat2` ?
 
 ## 3 - Structures
 
