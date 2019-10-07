@@ -98,7 +98,8 @@ Questions :
 + Q2. Avez-vous des fuites de mémoire ou des accès illicites à des zones mémoires (*out of bounds*) ?
 + Q3. Avez-vous eu recours à internet ou des exemples pour compléter l'exercice ?
 
-
+### FIN.
 ---
 
 ##### Auteur Guy Francoeur, version A2019
+###### basé sur le matériel d'Alexandre Blondin Massé, Professeur
