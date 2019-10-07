@@ -179,7 +179,7 @@ segmentation et déboguez-le à l'aide de GDB. Vous pouvez consulter par exemple
 le [tutoriel suivant](http://www.unknownroad.com/rtfm/gdbtut/>) comme point de
 départ.
 
-## FIN.
+### FIN.
 ---
 
 ##### Auteur Guy Francoeur, version 2019
