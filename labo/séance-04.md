@@ -20,19 +20,19 @@ vous entraîner à utiliser le logiciel (commandes) naturellement.
 
 ## 0 - Makefile
 
-Pour tous les execices qui suivent vous devez ajouter au fichier `Makefile` ce qui est nécessaire pour automatiser
+Pour tous les exercices qui suivent, vous devez ajouter au fichier `Makefile` ce qui est nécessaire pour automatiser
 la production de vos exécutables (et/ou objets).  De plus, il est souhaitable de produire une cible de test pour chacun.
 
-Si vous chercher des noms pour vos `exécutables` et `cibles` seance_05_1, seance_05_2, ... etc. Il s'agit, de mot séance
-sans accent suivi du numéro de la séance, et, terminant par le numéro de l'exercice.
+Si vous cherchez des noms pour vos `exécutables` et `cibles` labo_05_1, labo_05_2, ... etc. Il s'agit, 
+de mot labo suivi du numéro de la séance, et, terminant par le numéro de l'exercice.
 
 Il est fort possible que je visite votre dépôt pour vérifier vos avancements.
 
-A ceci, vous aller ajouter deux cibles :
-+ all_seance_test :
-+ all_seance_build :
+À ceci, vous allez ajouter deux cibles :
++ all_labo_test :
++ all_labo_build :
 
-Vous avez aussi compris que `all_seance_test` est dépendant de `all_seance_build`
+Vous avez aussi compris que `all_labo_test` est dépendant de `all_labo_build`.
 
 ## 1 - Arguments de la fonction main
 
