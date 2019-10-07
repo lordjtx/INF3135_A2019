@@ -85,8 +85,8 @@ Voici un exemple de sortie attendue:
 
 ## 2b - Opération sur les matrices (ascii)
 
-Écrire un programme qui va prendre les chaines de caractères contenu dans la section `données` 
-et qui fera une opération à l'aide de fonctions differentes :
+Écrire un programme qui va prendre les chaînes de caractères contenus dans la section `données` 
+et qui fera une opération à l'aide de fonctions différentes :
   + la moyenne `void avg( ... );`
   + l'addition `void add( ... );`
 
@@ -99,7 +99,7 @@ Les matrices (ou tables de caractères) sont les suivantes :
 ~~~~
 Les Canadiens sont une equipe de hockey
 Les Nordiques sont de Quebec
-Il ne FONT pas de politique
+Ils ne FONT pas de politique
 Super moi non plus
 Hourra!
 ~~~~
@@ -122,16 +122,16 @@ Vous devez définir un nouveau type pour `typer` vos matrices `mat1`, `mat2` et 
 ... matresultat[5,50];
 ```
 
-Vous devez afficher le caracteres de la matrice résultat dans `stderr`.
+Vous devez afficher le caractère de la matrice résultat dans `stderr`.
 
-Utiliser la même fonction d'affichage est surement une bonne idée.
+Utiliser la même fonction d'affichage est sûrement une bonne idée.
 
 #### Questions
 
-+ Q1. Quel est votre protptype de fonction ?
-+ Q2. Quels problèmes avez-vous rencontrer ?
-+ Q3. Quelles notions académique du langage C étaient nécessaire ?
-+ Q4. Avez-vous utiliser `stdin` ou des fichiers pour charger `mat1` et `mat2` ?
++ Q1. Quel est votre prototype de fonction ?
++ Q2. Quels problèmes avez-vous rencontrés ?
++ Q3. Quelles notions académiques du langage C étaient nécessaires ?
++ Q4. Avez-vous utilisé `stdin` ou des fichiers pour charger `mat1` et `mat2` ?
 
 ## 3 - Structures
 
