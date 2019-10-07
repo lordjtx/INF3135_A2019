@@ -18,7 +18,23 @@ divisant les fichiers dans des répertoires.
  > > Pourquoi versionner vos exercices avec Git: afin de
 vous entraîner à utiliser le logiciel (commandes) naturellement.
 
-## 0 - valgrind et gdb
+## 0a - Makefile
+
+Pour tous les execices qui suivent vous devez ajouter au fichier `Makefile` ce qui est nécessaire pour automatiser
+la production de vos exécutables (et/ou objets).  De plus, il est souhaitable de produire une cible de test pour chacun.
+
+Si vous chercher des noms pour vos `exécutables` et `cibles` seance_05_1, seance_05_2, ... etc. Il s'agit, de mot séance
+sans accent suivi du numéro de la séance, et, terminant par le numéro de l'exercice.
+
+Il est fort possible que je visite votre dépôt pour vérifier vos avancements.
+
+A ceci, vous aller ajouter deux cibles :
++ all_seance_test :
++ all_seance_build :
+
+Vous avez aussi compris que `all_seance_test` est dépendant de `all_seance_build`
+
+## 0b - valgrind et gdb
 
 Il est fort possible que vous ayez a utiliser les application `valgrind` et `gdb` pour compléter les exercices de cette séance.
 
