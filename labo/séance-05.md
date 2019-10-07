@@ -97,11 +97,11 @@ Les matrices (ou tables de caractères) sont les suivantes :
 
 `mat1`
 ~~~~
-Les Canadiens sont une equipes de hockey
-Les Nordiques sont aussi aux hockey
+Les Canadiens sont une equipe de hockey
+Les Nordiques sont de Quebec
 Il ne FONT pas de politique
 Super moi non plus
-Hourra
+Hourra!
 ~~~~
 
 `mat2`
@@ -109,7 +109,7 @@ Hourra
 Je dors ZZZ zzz
 Le cours de C est le meilleur
 J'aime apprendre
-Nous avons tous le temp pour un bon repas
+Nous avons tous le temps pour un bon repas
 UQAM est mon univers
 ~~~~
 
