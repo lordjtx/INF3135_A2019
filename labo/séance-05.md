@@ -23,16 +23,16 @@ vous entraîner à utiliser le logiciel (commandes) naturellement.
 Pour tous les execices qui suivent vous devez ajouter au fichier `Makefile` ce qui est nécessaire pour automatiser
 la production de vos exécutables (et/ou objets).  De plus, il est souhaitable de produire une cible de test pour chacun.
 
-Si vous chercher des noms pour vos `exécutables` et `cibles` seance_05_1, seance_05_2, ... etc. Il s'agit, de mot séance
-sans accent suivi du numéro de la séance, et, terminant par le numéro de l'exercice.
+Si vous chercher des noms pour vos `exécutables` et `cibles` labo_05_1, labo_05_2, ... etc. Il s'agit, 
+de mot labo suivi du numéro de la séance, et, terminant par le numéro de l'exercice.
 
 Il est fort possible que je visite votre dépôt pour vérifier vos avancements.
 
 A ceci, vous aller ajouter deux cibles :
-+ all_seance_test :
-+ all_seance_build :
++ all_labo_test :
++ all_labo_build :
 
-Vous avez aussi compris que `all_seance_test` est dépendant de `all_seance_build`.
+Vous avez aussi compris que `all_labo_test` est dépendant de `all_labo_build`.
 
 ## 1 - Afficher une matrice
 
@@ -56,7 +56,7 @@ Grâce à votre fonction, la matrice sera affichée comme suit:
 7 8 9
 ```
 
-## 2 - Addition de matrices
+## 2a - Addition de matrices (entières)
 
 Écrivez une fonction C permettant d'additionner deux matrices.  N'hésitez pas à
 réutiliser la fonction de l'exercice précédent pour afficher le résultat.
@@ -82,6 +82,48 @@ Voici un exemple de sortie attendue:
 5 5 5
 5 5 5
 ```
+
+## 2b - Opération sur les matrices (ascii)
+
+Écrire un programme qui va prendre les chaines de caractères contenu dans la section `données` 
+et qui fera une opération à l'aide de fonctions differentes :
+  + la moyenne `void avg( ... );`
+  + l'addition `void add( ... );`
+
+Les matrices (ou tables de caractères) sont les suivantes :
+
+```
+Les Canadiens sont une equipes de hockey
+Les Nordiques sont aussi aux hockey
+Il ne FONT pas de politique
+Super moi non plus
+Hourra
+
+Je dors ZZZ zzz
+Le cours de C est le meilleur
+J'aime apprendre
+Nous avons tous le temp pour un bon repas
+UQAM est mon univers
+```
+
+Vous devez définir un nouveau type pour `typer` vos matrices `mat1`, `mat2` et `matresultat` 
+
+```c
+//déclaration et réservation de l'espace mémoire
+... mat1[5,50];
+... mat2[5,50];
+... matresultat[5,50];
+```
+
+Vous devez afficher le caracteres de la matrice résultat dans `stderr`.
+
+Utiliser la même fonction d'affichage est surement une bonne idée.
+
+#### Questions
+
+Q1. Quel est votre protptype de fonction ?
+Q2. Quels problèmes avez-vous rencontrer ?
+Q3. Quelles notions académique du langage C étaient nécessaire ?
 
 ## 3 - Structures
 
@@ -192,7 +234,7 @@ Une fois le .h fini vous aller écrire un .c qui fera les actions suivantes :
 
 Prenez n'importe quel programme dans lequel vous avez une erreur (ou pas) de
 segmentation et déboguez-le à l'aide de GDB. Vous pouvez consulter par exemple
-le [tutoriel suivant](http://www.unknownroad.com/rtfm/gdbtut/>) comme point de
+le [tutoriel suivant](http://www.unknownroad.com/rtfm/gdbtut/) comme point de
 départ.
 
 ### FIN.
