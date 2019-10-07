@@ -285,5 +285,5 @@ $ git checkout -- README.md
 ### FIN.    
 ---
 
-##### Auteur Guy Francoeur
-###### Basé sur les travaux d'Alexandre Blondin Massé, Professeur
+##### Auteur Guy Francoeur, version A2019
+###### Basé sur le matérial d'Alexandre Blondin Massé, Professeur
