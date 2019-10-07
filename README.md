@@ -81,6 +81,7 @@ Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que j
 + [The linux command line](http://www.linuxcommand.org/tlcl.php "The linux command line")
 + [101 commandes indispensables sous linux](https://buzut.fr/101-commandes-indispensables-sous-linux/ "101 commandes indispensables sous linux")
 + [Optimizing software in C++](https://www.agner.org/optimize/optimizing_cpp.pdf "référence pour le C++, niveau expert")
++ [astyle source code beautifier](https://sourceforge.net/projects/astyle/files/astyle/astyle%203.1/)
 + [Politiques et règlements du département d'informatique](http://info.uqam.ca/politiques/)
 
 ----
