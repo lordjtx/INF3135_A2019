@@ -89,7 +89,8 @@ Voici un exemple de sortie attendue:
 et qui fera une opération à l'aide de fonctions différentes :
   + la moyenne `void avg( ... );`
   + l'addition `void add( ... );`
-
+Veuillez prendre note que les caratères ASCII en bas de 32 ne sont pas des caratères visibles ils
+sont dit binaires.  Vous ne pouvez donc pas les afficher. Veuillez les convertir en un espace ASCII = 32.
 
 #### Données
 
@@ -122,16 +123,21 @@ Vous devez définir un nouveau type pour `typer` vos matrices `mat1`, `mat2` et 
 ... matresultat[5,50];
 ```
 
+Vous devez afficher dans la sortie standard le caractère en plus de la valeur ascii. ex `9: 57`.
 Vous devez afficher le caractère de la matrice résultat dans `stderr`.
+Ecrire votre programme en petit module.
 
-Utiliser la même fonction d'affichage est sûrement une bonne idée.
+Vous allez lancer votre programme en ligne de commande et rediriger `stdout` dans `out.txt` et `stderr` dans `err.txt`;
 
 #### Questions
 
-+ Q1. Quel est votre prototype de fonction ?
-+ Q2. Quels problèmes avez-vous rencontrés ?
-+ Q3. Quelles notions académiques du langage C étaient nécessaires ?
-+ Q4. Avez-vous utilisé `stdin` ou des fichiers pour charger `mat1` et `mat2` ?
++ Q1. Quel est votre prototype de fonction pour add() ?
++ Q2. Ave-vous le meme pour avg ?
++ Q3. Quels problèmes avez-vous rencontrés ?
++ Q4. Quelles notions académiques du langage C étaient nécessaires ?
++ Q5. Avez-vous utilisé `stdin` ou des fichiers pour charger `mat1` et `mat2` ?
++ Q6. Combien de fonctions avez-vous ?
++ Q7. Temps requis pour accomplir le travail ?
 
 ## 3 - Structures
 
