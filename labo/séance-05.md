@@ -89,8 +89,10 @@ Voici un exemple de sortie attendue:
 et qui fera une opération à l'aide de fonctions différentes :
   + la moyenne `void avg( ... );`
   + l'addition `void add( ... );`
+  
 Veuillez prendre note que les caratères ASCII en bas de 32 ne sont pas des caratères visibles ils
 sont dit binaires.  Vous ne pouvez donc pas les afficher. Veuillez les convertir en un espace ASCII = 32.
+Ne tentez pas d'afficher le caratères 0 (ou NULL) non plus. A quoi sert-il déjà ?
 
 #### Données
 
