@@ -5,7 +5,9 @@
 ### Matériel du cours INF3135 édition Automne 2019
 
 ### Dates importantes:
-- Examen #1 25% : 26 octobre 2019 09h30 durée 3h, locaux **SH-2560 et SH-2580**
+- Examen #1 25% : 26 octobre 2019 09h30 durée 3h
+  + **SH-2560** [ AAAA @ LEMJ ] 
+  + **SH-2580** [ LEMP @ ZZZZ ]
 - Examen #2 25% : 14 décembre 2019 09h30 durée 3h, locau **à venir**
 - Travail 1 15% :  25 octobre à 23h59 ~~18 octobre 2019 à 23h59~~ [énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
 - Travail 2 15% :  ... 2019 à 01h00
@@ -72,8 +74,9 @@ Guy Francoeur
 
 #### Référence: 
 
-Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration. 
+Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration.
 
++ [standard C 2011 ISO/IEC 9899:201x](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 + [TIOBE Index (les langages de programmation)](https://www.tiobe.com/tiobe-index/ "Usage des langages de programmation")
 + [The C Programming Language - TIOBE Graph](https://www.tiobe.com/tiobe-index/c/ "Langage C")
 + [Makefile - Appendix A Quick Reference](https://www.gnu.org/software/make/manual/html_node/Quick-Reference.html#Quick-Reference)
