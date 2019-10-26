@@ -44,17 +44,9 @@
 - Chapitre 12 type générique et pointeurs de fonction
 - Chapitre 13 mémoire (son organisation en C)
 
-#### Laboratoires:
-- séance 1
-- séance 2
-- séance 3
-- séance 4
-- séance 5
-- séance 6
-- séance 7
-- séance 8
-- séance 9
-- séance 10
+#### Ateliers (laboratoires) :
++ Il y aura 10 séances;
++ Il n'y a pas de séance de laboratoire la semaine suivant l'examen.
 
 #### Linux
 
