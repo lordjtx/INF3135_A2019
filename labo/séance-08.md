@@ -28,12 +28,14 @@ de les rendre légèrement plus performantes.
 
 Ce laboratoire est d'une durée supérieure à 2h.  Vous devez réaliser les exercices sur plusieurs séances.  Le moniteur peut
 vous guider dans la réalisation, mais il est important de savoir que vous serez livré à vous même lors des examens ou le 
-reste de votre parcours scolaire et professionnel.  Prendre de bonne habitude est important.
+reste de votre parcours scolaire et professionnel.  Prendre de bonnes habitudes est important.
+
+Lire complètement le devoir, respirer.
 
 ## 1 - Developpement rapide
 
- a) Vous devez écrire un programme et une fonction qui permet de découvrir des nombres premiers.
- b) Vous devez écrire une fonction simple qui trouve un nombre parfait dans un intervalle.
+ - a) Vous devez écrire un programme et une fonction qui permet de découvrir des nombres premiers.
+ - b) Vous devez écrire une fonction simple qui trouve un nombre parfait dans un intervalle.
  
 Étapes :
  - Prendre quelques minutes pour y penser;
@@ -41,7 +43,7 @@ reste de votre parcours scolaire et professionnel.  Prendre de bonne habitude es
  - Écrire vos fonctions;
  - Ne tentez pas de les optimiser, il est grandement improbable d'y arriver du premier coup;
 
-## 2 - Complexité asymptotique
+## 2 - Complexité asymptotique (introduction)
 
 Si c'est la première fois que vous voyez ce terme, alors voici une courte explication.  La complexité asymptotique vise 
 à connaître le coût qu'un algorithme prend pour des cas typiques.  Pire cas, meilleur cas, cas moyen.  On peut aussi le
@@ -64,9 +66,9 @@ Pour chacune des fonctions :
 
 Dans `mes_outils.h` et `mes_outils.c` construire et coder les fonctions :
 Vous devez coder les fonctions atoi() ou atol() et isdigits() identiques à ce qui est disponible dans le C standard.
- + La fonction devra être en mesure de traiter n'importe quel nombre positif.
- + Ensemble N = {0 .. 2<sup>64</sup>} tel que `0123`, `9028282893`
- - Idealement si vous êtes en mesure de gérer les nombres négatifs vous êtes encore meilleur
+ + La fonction devra être en mesure de traiter n'importe quel nombre positif;
+ + Ensemble N = {0 .. 2<sup>64</sup>} tel que `0123`, `9028282893`;
+ - Idéalement si vous êtes en mesure de gérer les nombres négatifs vous êtes encore meilleur.
 
 Si vous avez de l'ambition et du temps, faire aussi une fonction asciiOf() : qui retourne le code ascii d'un caractère passé comme argument.
 
@@ -74,7 +76,7 @@ En plus, vous pouvez aussi prendre les fonctions du #1 et les intégrer au fichi
 
 ## 4 - Créer un programme de test unitaire avec CUnit 
 
- + `CUnit` est disponible et déjà installé dans le serveur Java de l'UQAM;
+ + La librairie `CUnit` est disponible et déjà installée dans le serveur Java de l'UQAM;
  + Le programme sera en mesure de tester les fonctions qui composent vos travaux;
  + Vous devez créer un programme et inclure les fichiers d'entêtes pour que les fonctions soient vues et testées;
 
@@ -82,8 +84,17 @@ Vous devez tester les fonctions que vous avez codées dans les exercices précé
 
 ## 5 - Unit-tester mes fonctions durant le développement (Agile)
 
+À ce point-ci, vous devriez avoir plusieurs fonctions dans votre librairie `mes_outils.*`. 
+ + `estPremier()` 
+ + `estParfait()`
+ + `toInt()`
+ + `estNum()`
+ + `toLong()`
+ + `asciiOf()`
+ 
 Refaire (refactoriser ou optimiser) toutes les fonctions du numéro 1 afin de les rendre plus performantes.
-Durant le développement, il est possible de re-tester (test de régression) vos fonctions afin de savoir si elles sont toujours conformes.
+Durant le développement, il est possible de re-tester (test de régression) vos fonctions afin de savoir si
+elles sont toujours conformes.
 
 + Q1. Les rendre plus performantes veut dire quoi simplement ?
 + Q2. Comment est-ce possible de rendre un programme plus performant ?
@@ -91,6 +102,17 @@ Durant le développement, il est possible de re-tester (test de régression) vos
 + Q4. Comment est-ce possible de savoir si les fonctions retournent toujours un résultat correct ?
 + Q5. Quelle autre façon de faire pourrait aussi nous indiquer que les fonctions retournent un résultat correct ?
 
+## 6 - Construire le fichier Makefile
+
+Afin de faciliter plusieurs opérations vous devez construire un Makefile complet qui inclut toutes les
+cibles nécessaires pour valider, tester, compiler, netoyer.  Les cibles additionnelles qui sont demandées
+visent la construction de la librairie pour une édition de lien statique et la construction d'un exécutable
+sans dépendance.  
+
+Produire les fichiers suivants à l'aide de votre Makefile :
+  + mes_outils.a
+  + mon_exe_statique
+  
 ### FIN.
 ---
 
