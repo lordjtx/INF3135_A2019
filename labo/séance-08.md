@@ -100,7 +100,7 @@ elles sont toujours conformes.
 + Q2. Comment est-ce possible de rendre un programme plus performant ?
 + Q3. Est-ce possible de rendre un programme plus performant en ajoutant du code, pourquoi ?
 + Q4. Comment est-ce possible de savoir si les fonctions retournent toujours un résultat correct ?
-+ Q5. Quelle autre façon de faire pourrait aussi nous indiquer que les fonctions retournent un résultat correct ?
++ Q5. ~~Quelle autre façon pourrait aussi nous indiquer que les fonctions retournent un résultat correct ?~~
 
 ## 6 - Construire le fichier Makefile
 
