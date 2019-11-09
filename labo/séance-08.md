@@ -70,7 +70,7 @@ Vous devez coder les fonctions atoi() ou atol() et isdigits() identiques à ce q
  + Ensemble N = {0 .. 2<sup>64</sup>} tel que `0123`, `9028282893`;
  - Idéalement si vous êtes en mesure de gérer les nombres négatifs vous êtes encore meilleur.
 
-Si vous avez de l'ambition et du temps, faire aussi une fonction asciiOf() : qui retourne le code ascii d'un caractère passé comme argument.
+Si vous avez de l'ambition et du temps, faire aussi une fonction `asciiOf()` : qui retourne le code ascii d'un caractère passé comme argument.
 
 En plus, vous pouvez aussi prendre les fonctions du #1 et les intégrer au fichier `mes_outils.h` et `mes_outils.c`
 
@@ -111,8 +111,10 @@ sans dépendance.
 
 Produire les fichiers suivants à l'aide de votre Makefile :
   + mes_outils.a
-  + mon_exe_statique
-  
+  + premier_statique
+
+Le programme `premier_statique` accepte un argument, un nombre 64bit.  `premier_statique 8717237347711`
+
 ### FIN.
 ---
 
