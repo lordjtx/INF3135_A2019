@@ -52,13 +52,13 @@ Exemple afficher tous les nombres entre `1` et le nombre `n` aura un coût (ou G
 nous devons passer sur chaque nombre pour faire le `printf`. La boucle sera de n `loops`.
 
 Une fois terminé le numéro précédent, vous devez calculer le coût (la complexité) 
- + Q1 pour un nombre premier;
- + Q2 pour un nombre qui n'est pas premier. 
+ + Q1. pour un nombre premier;
+ + Q2. pour un nombre qui n'est pas premier. 
 
 Pour chacune des fonctions :
- + Q1. Est-ce que la fonction que vous avez écrite est dite naïve ou optimisée ?
- + Q2. Comment est-ce possible de rendre ceci plus rapide ?
- + Q3. Écrire du code additionnel ralentira ou accélérera votre la découverte ?
+ + Q3. Est-ce que la fonction que vous avez écrite est dite naïve ou optimisée ?
+ + Q4. Comment est-ce possible de rendre ceci plus rapide ?
+ + Q5. Écrire du code additionnel ralentira ou accélérera votre la découverte ?
  
 ## 3 - Construction de librairies
 
@@ -70,7 +70,7 @@ Vous devez coder les fonctions atoi() ou atol() et isdigits() identiques à ce q
 
 Si vous avez de l'ambition et du temps, faire aussi une fonction asciiOf() : qui retourne le code ascii d'un caractère passé comme argument.
 
-En plus, vous pouvez aussi prendre les fonctions du #1 et les integrer au fichier `mes_outils.h` et `mes_outils.c`
+En plus, vous pouvez aussi prendre les fonctions du #1 et les intégrer au fichier `mes_outils.h` et `mes_outils.c`
 
 ## 4 - Créer un programme de test unitaire avec CUnit 
 
@@ -85,11 +85,11 @@ Vous devez tester les fonctions que vous avez codées dans les exercices précé
 Refaire (refactoriser ou optimiser) toutes les fonctions du numéro 1 afin de les rendre plus performantes.
 Durant le développement, il est possible de re-tester (test de régression) vos fonctions afin de savoir si elles sont toujours conformes.
 
-+ Q1. Plus performante veut dire quoi ?
++ Q1. Les rendre plus performantes veut dire quoi simplement ?
 + Q2. Comment est-ce possible de rendre un programme plus performant ?
-+ Q3. Est-ce possible de rendre un programme plus performant en ajoutant du code ?
++ Q3. Est-ce possible de rendre un programme plus performant en ajoutant du code, pourquoi ?
 + Q4. Comment est-ce possible de savoir si les fonctions retournent toujours un résultat correct ?
-+ Q5. Quelle autre façon de faire pourrait aussi nous dire si les fonctions retournent un résultat correct ?
++ Q5. Quelle autre façon de faire pourrait aussi nous indiquer que les fonctions retournent un résultat correct ?
 
 ### FIN.
 ---
