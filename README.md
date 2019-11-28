@@ -9,9 +9,9 @@
   + **SH-2560** [ AAAA @ LEMJ ] 
   + **SH-2580** [ LEMP @ ZZZZ ]
 - Examen #2 25% : 14 décembre 2019 09h30 durée 3h, locau **à venir**
-- Travail 1 15% :  25 octobre à 23h59 ~~18 octobre 2019 à 23h59~~ [énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
-- Travail 2 15% :  ... 2019 à 01h00
-- Travail 3 20% :  ... 2019 à 07h59
+> > - Travail 1 25% :  25 octobre à 23h59 ~~18 octobre 2019 à 23h59~~ [énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
+> >- Travail 2 25% :  29 novembre 2019 à 23h59 2019 à 01h00 [énoncé tp2](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp2-enonce)
+> >- Travail 3 10% :  12 decembre 2019 à 19h59 facultatif [énoncé tp3]() La correction du tp3 sera le 16 decembre 2019 pas après.
 
 ##### Directives aux examens
  + Avoir votre carte d'étudiant UQAM valide;
