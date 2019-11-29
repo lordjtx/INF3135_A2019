@@ -8,9 +8,9 @@
 - Examen #1 25% : 26 octobre 2019 09h30 durée 3h
   + **SH-2560** [ AAAA @ LEMJ ] 
   + **SH-2580** [ LEMP @ ZZZZ ]
-- Examen #2 25% : 14 décembre 2019 09h30 durée 3h, locau **à venir**
+- Examen #2 25% : 14 décembre 2019 09h30 durée 3h, local **à venir**
 > > - Travail 1 25% :  25 octobre à 23h59 ~~18 octobre 2019 à 23h59~~ [énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
-> >- Travail 2 25% :  **2 décembre 2019 à 6h29** [énoncé tp2](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp2-enonce)
+> >- Travail 2 25% :  ~~29 novembre 2019 à 23h59~~ **2 décembre 2019 à 6h29** [énoncé tp2](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp2-enonce)
 > >- Travail 3 10% :  **12 decembre 2019 à 11h59** [énoncé tp3](https://github.com/guyfrancoeur/INF3135_A2019_TP/blob/master/tp3.md)
 
 ##### Directives aux examens
