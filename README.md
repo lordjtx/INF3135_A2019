@@ -28,9 +28,6 @@
  + Vous avez trois (3) heures;
  + **Signez la feuille de présence avant votre départ.**
 
-#### Travaux pratiques
-- [TP1 énoncé ici](https://gitlab.info.uqam.ca/inf3135-aut2019/inf3135-aut2019-tp1-enonce)
-
 #### Cours:
 - Chapitre 1 introduction
 - Chapitre 2 base du langage C partie 1
